@@ -2,11 +2,11 @@ import {
   BriefcaseBusiness,
   ChartNoAxesCombined,
   Landmark,
-  Cpu,
-  Bitcoin,
+  // Cpu,
+  // Bitcoin,
   Building2,
-  Globe2,
-  Play,
+  // Globe2,
+  // Play,
 } from "lucide-react";
 
 export const mockCategories = [
@@ -28,36 +28,36 @@ export const mockCategories = [
     icon: Landmark,
     path: "/economy",
   },
-  {
-    name: "Tech",
-    description: "Technology, AI, innovation and the digital economy.",
-    icon: Cpu,
-    path: "/tech",
-  },
-  {
-    name: "Crypto",
-    description: "Digital assets, blockchain and cryptocurrency markets.",
-    icon: Bitcoin,
-    path: "/crypto",
-  },
+  // {
+  //   name: "Tech",
+  //   description: "Technology, AI, innovation and the digital economy.",
+  //   icon: Cpu,
+  //   path: "/tech",
+  // },
+  // {
+  //   name: "Crypto",
+  //   description: "Digital assets, blockchain and cryptocurrency markets.",
+  //   icon: Bitcoin,
+  //   path: "/crypto",
+  // },
   {
     name: "Companies",
     description: "Company updates, earnings, leadership and corporate news.",
     icon: Building2,
     path: "/companies",
   },
-  {
-    name: "World",
-    description: "Global business, economic and financial developments.",
-    icon: Globe2,
-    path: "/world",
-  },
-  {
-    name: "Videos",
-    description: "Business interviews, market updates and analysis.",
-    icon: Play,
-    path: "/videos",
-  },
+  // {
+  //   name: "World",
+  //   description: "Global business, economic and financial developments.",
+  //   icon: Globe2,
+  //   path: "/world",
+  // },
+  // {
+  //   name: "Videos",
+  //   description: "Business interviews, market updates and analysis.",
+  //   icon: Play,
+  //   path: "/videos",
+  // },
 ];
 
 export const mockMarkets = [
